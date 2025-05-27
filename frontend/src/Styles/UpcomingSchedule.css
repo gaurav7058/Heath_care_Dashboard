@@ -8,15 +8,6 @@
   width: 80%;
   margin: 20px 0px 20px 68px;
 }
-/* @media (max-width:480px){
-  .upcoming-schedule-container{
-    display: flex;
-        flex-direction: column;
-        width: 63%;
-        justify-content: center;
-        margin: 20px 0px 0px 20px;
-  }
-} */
 .schedule-main-title {
   color: #2d3748;
   font-size: 1.5rem;
