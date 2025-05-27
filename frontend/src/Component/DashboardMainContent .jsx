@@ -2,27 +2,18 @@ import React from 'react';
 import '../Styles/Dashboard.css';
 import { Activity, HeartPulse, Stethoscope, UserPlus } from 'lucide-react';
 import "../Styles/Dashboard.css"
-import DashboardOverview from './DashboardComponents/DashboardOverview';
-import CalendarView from './DashboardComponents/CalendarView';
-import ActivityFeed from './DashboardComponents/ActivityFeed';
-import UpcomingSchedule from './DashboardComponents/UpcomingSchedule';
+import DashboardOverview from './DashboardOverview';
+import CalendarView from './CalendarView';
+import ActivityFeed from './ActivityFeed';
+import UpcomingSchedule from './UpcomingSchedule';
 import SimpleAppointmentCard from './SimpleAppointmentCard';
 const Dashboard = () => {
   return (
     <div className="dashboard">
-        {/* First */}
-
-        <DashboardOverview></DashboardOverview>
-
-        {/* Second */}
-            <CalendarView></CalendarView>
-        {/* Third */}
-        
-        <ActivityFeed></ActivityFeed>
-
-        
-        {/* Second */}
-        <UpcomingSchedule></UpcomingSchedule>
+      <DashboardOverview></DashboardOverview>
+      <CalendarView></CalendarView>
+      <ActivityFeed></ActivityFeed>
+      <UpcomingSchedule></UpcomingSchedule>
     </div>
   );
 };

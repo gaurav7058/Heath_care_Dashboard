@@ -3,7 +3,7 @@ import '../Styles/Navbar.css';
 import { Bell, Search, User } from 'lucide-react';
 
 const Navbar = () => {
-  
+
   return (
     <header className="navbar">
       {/* Company Logo */}
@@ -12,7 +12,7 @@ const Navbar = () => {
           <span className="logo-highlight">Health</span>care.
         </h1>
       </div>
-
+      
       {/* Search bar + Notification */}
       <div className="navbar__search-section">
         <div className="navbar__search">

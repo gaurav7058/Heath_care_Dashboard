@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaStethoscope, FaEye, FaHeartbeat, FaBrain } from 'react-icons/fa';
 import '../../Styles/UpcomingSchedule.css';
-import SimpleAppointmentCard from '../SimpleAppointmentCard';
+import SimpleAppointmentCard from './SimpleAppointmentCard';
 const UpcomingSchedule = () => {
   const scheduleData = [
     {

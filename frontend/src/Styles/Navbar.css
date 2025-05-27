@@ -94,29 +94,6 @@
 }
 
 /* Ultra Small Screens - stack vertically */
-/* @media (max-width: 400px) {
-  .navbar {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 12px;
-  }
-
-  .navbar__logo {
-    text-align: center;
-  }
-
-  .navbar__search-section {
-    flex-direction: column;
-    gap: 8px;
-    align-items: stretch;
-  }
-
-  .navbar__profile {
-    justify-content: center;
-  }
-
-  .navbar__search {
-    max-width: 100%;
-    width: 100%;
-  }
-} */
+@media (max-width: 400px) {
+  
+}
