@@ -47,37 +47,18 @@
 }
 
 /* Responsive Design */
-/* @media (max-width: 768px) {
-  .days-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-  
+
+ @media (max-width: 480px) {
   .activity-container {
-    padding: 1rem;
-  }
+  background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 20px 0px 20px 68px;
+    border-radius: 12px;
+    padding: 12px;
+}
 }
 
-@media (max-width: 480px) {
-  .days-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.25rem;
-  }
-  
-  .day-pill {
-    padding: 0.5rem;
-    font-size: 0.8rem;
-  }
-  
-  .activity-title {
-    font-size: 1.25rem;
-  }
-}
-
-@media (max-width: 360px) {
-  .days-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-} */
 
 /* Add these new styles */
 .progress-container {
@@ -171,40 +152,7 @@
   opacity: 1;
 }
 
-/* Responsive Design for Chart */
-/* @media (max-width: 768px) {
-  .chart-bars {
-    height: 150px;
-  }
-  
-  .bar-label {
-    font-size: 0.7rem;
-  }
-}
 
-@media (max-width: 480px) {
-  .chart-bars {
-    flex-wrap: wrap;
-    height: auto;
-    gap: 1rem;
-  }
-  
-  .chart-bar-container {
-    flex: none;
-    width: 20%;
-    margin: 0;
-  }
-  
-  .chart-bar {
-    height: 100px !important;
-    width: 100%;
-  }
-  
-  .bar-value {
-    top: -20px;
-    font-size: 0.65rem;
-  }
-} */
 
 /* Previous styles remain the same */
 .activity-container {
