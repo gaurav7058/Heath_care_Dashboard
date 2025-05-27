@@ -8,7 +8,7 @@
   width: 80%;
   margin: 20px 0px 20px 68px;
 }
-@media (max-width:480px){
+/* @media (max-width:480px){
   .upcoming-schedule-container{
     display: flex;
         flex-direction: column;
@@ -16,7 +16,7 @@
         justify-content: center;
         margin: 20px 0px 0px 20px;
   }
-}
+} */
 .schedule-main-title {
   color: #2d3748;
   font-size: 1.5rem;
@@ -97,6 +97,42 @@
   right: 1rem;
   top: 50%;
   transform: translateY(-50%);
+}
+
+
+@media (max-width: 768px) {
+  .upcoming-schedule-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .upcoming-schedule-container {
+    width: 95%;
+    margin: 20px auto;
+    padding: 1rem;
+  }
+
+  .appointments-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .appointment-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .card-icon {
+    margin-bottom: 0.75rem;
+    margin-right: 0;
+  }
+
+  .status-indicator {
+    right: 0.75rem;
+    top: 1rem;
+  }
 }
 
 

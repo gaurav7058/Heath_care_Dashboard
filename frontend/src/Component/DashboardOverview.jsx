@@ -3,6 +3,8 @@ import AnatomySection from './AnatomySection'
 import HealthStatusCards from './HealthStatusCards'
 import { Calendar } from 'lucide-react'
 import CalendarView from './CalendarView'
+import "../Styles/DashboardOverview.css"
+import "../Styles/AnatomySection-HealthStatusCards.css"
 
 const DashboardOverview = () => {
     return (

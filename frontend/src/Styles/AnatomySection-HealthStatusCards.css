@@ -1,0 +1,14 @@
+/* AnatomySection-HealthStatusCards */
+.AnatomySection-HealthStatusCards {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* AnatomySection-HealthStatusCards Responsive*/
+@media (max-width: 480px) {
+  .AnatomySection-HealthStatusCards {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+}

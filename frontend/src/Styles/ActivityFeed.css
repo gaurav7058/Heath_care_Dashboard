@@ -6,7 +6,7 @@
     border-radius: 12px;
     padding: 12px;
 }
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .activity-container {
     background-color: #ffffff;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -15,7 +15,7 @@
     border-radius: 12px;
     padding: 12px;
 }
-}
+} */
 .activity-header {
   margin-bottom: 1.5rem;
 }
@@ -165,3 +165,80 @@
 }
 
 /* ... rest of previous CSS ... */
+
+/* Responsive updates */
+@media (max-width: 768px) {
+  .activity-container {
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 85%;
+  }
+
+  .activity-title {
+    font-size: 1.25rem;
+  }
+
+  .activity-subtitle {
+    font-size: 0.85rem;
+  }
+
+  .activity-chart {
+    padding: 0.5rem;
+    margin: 1rem 0;
+  }
+
+  .chart-bars {
+    height: 150px;
+    gap: 4px;
+  }
+
+  .chart-bar-container {
+    margin: 0 0.25rem;
+  }
+
+  .bar-label {
+    font-size: 0.75rem;
+  }
+
+  .bar-value {
+    font-size: 0.65rem;
+    padding: 1px 6px;
+  }
+
+  .days-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .day-pill {
+    font-size: 0.75rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .activity-container {
+    margin: 1rem;
+    padding: 1rem;
+  }
+
+  .activity-title {
+    font-size: 1.1rem;
+  }
+
+  .chart-bars {
+    height: 120px;
+  }
+
+  .bar-label {
+    font-size: 0.7rem;
+  }
+
+  .day-pill {
+    padding: 0.4rem;
+    font-size: 0.7rem;
+  }
+
+  .days-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,91 @@
+.progress-lungs {
+  height: 11px;
+  width: 90%;
+  border-radius: 6px;
+  border: 1px solid #ffcccc;
+  background-color: #fff5f5;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-lungs::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 60%;
+  background-color: rgb(54, 214, 219);
+  border-radius: 6px 2px 2px 6px;
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.2);
+}
+.progress-teeth {
+  height: 11px;
+  width: 90%;
+  border-radius: 6px;
+  border: 1px solid #ffcccc;
+  background-color: #fff5f5;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-teeth::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 60%;
+  background-color: #ff4444;
+  border-radius: 6px 2px 2px 6px;
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.2);
+}
+.progress-bone {
+  height: 11px;
+  width: 90%;
+  border-radius: 6px;
+  border: 1px solid #ffcccc;
+  background-color: #fff5f5;
+  position: relative;
+  overflow: hidden;
+}
+
+.progress-bone::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 60%;
+  background-color: darkorange;
+  border-radius: 6px 2px 2px 6px;
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+.HealthStatusCards {
+}
+
+.HealthStatusCards-parts {
+  background-color: #f7f8fa;
+  width: 80%;
+  border-radius: 11px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  padding: 8px;
+  margin-bottom: 15px;
+}
+.lungs-img-para {
+  display: flex;
+}
+.body-img {
+  width: 10%;
+  margin-right: 12px;
+}
+
+@media (max-width:480px){
+  .HealthStatusCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
