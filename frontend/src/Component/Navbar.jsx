@@ -1,18 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../Styles/Navbar.css';
-import { Bell, Search, User } from 'lucide-react';
+import { Bell, Search, User,Menu } from 'lucide-react';
 
 const Navbar = () => {
-  
   return (
     <header className="navbar">
       {/* Company Logo */}
+          <Menu className='menu-bar' ></Menu>
       <div className="navbar__logo">
         <h1>
           <span className="logo-highlight">Health</span>care.
         </h1>
       </div>
-
+      
       {/* Search bar + Notification */}
       <div className="navbar__search-section">
         <div className="navbar__search">

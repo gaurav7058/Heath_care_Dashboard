@@ -1,4 +1,4 @@
-import '../../Styles/ActivityFeed.css';
+import '../Styles/ActivityFeed.css';
 import React from 'react';
 
 const ActivityFeed = () => {

@@ -1,11 +1,9 @@
-import React from 'react';
-import '../Styles/Sidebar.css';
-import { Home, Calendar, ClipboardList, MessageSquare, Settings,History ,Phone, X } from 'lucide-react';
+import React from 'react'
 
-const Sidebar = ({ isSidebarOpen }) => {
+const Menu = () => {
   return (
-    <aside className="sidebar">
-      <nav className="sidebar__nav">
+    <div>
+       <nav className="sidebar__nav">
         <button className="sidebar__close">
           <X size={24} />
         </button>
@@ -45,8 +43,8 @@ const Sidebar = ({ isSidebarOpen }) => {
           </li>
         </ul>
       </nav>
-    </aside>
-  );
-};
+    </div>
+  )
+}
 
-export default Sidebar;
+export default Menu

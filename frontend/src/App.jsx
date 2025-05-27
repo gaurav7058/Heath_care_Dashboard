@@ -1,15 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Dashboard from './Component/DashboardMainContent '
-import Nabar from './Component/Nabar'
+import Nabar from './Component/Navbar'
 import Sidebar from './Component/Sidebar'
-import Home from './pages/Home'
+
 import "./App.css"
 const App = () => {
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+  const toggleBtn=()=>{
+    setIsSidebarOpen(!isSidebarOpen)
+  }
   return (
     <div>
-      <Nabar></Nabar>
+      <Nabar isSidebarOpen={isSidebarOpen} toggleBtn={toggleBtn}></Nabar>
       <div className="main-content">
-        <Sidebar></Sidebar>
+        <Sidebar isSidebarOpen={isSidebarOpen}></Sidebar>
         <Dashboard></Dashboard>
       </div>
     </div>
