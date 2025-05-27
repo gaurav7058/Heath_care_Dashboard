@@ -20,7 +20,7 @@
     border-right: 1px solid #eee;
   }
   .sidebar__close{
-    display: ;
+    display: none ;
   }
   .sidebar__nav ul {
     list-style: none;

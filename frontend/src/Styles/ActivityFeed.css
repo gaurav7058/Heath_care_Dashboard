@@ -6,7 +6,16 @@
     border-radius: 12px;
     padding: 12px;
 }
-
+@media (max-width: 480px) {
+  .activity-container {
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    margin: 20px 0px 20px 68px;
+    border-radius: 12px;
+    padding: 12px;
+}
+}
 .activity-header {
   margin-bottom: 1.5rem;
 }
@@ -48,13 +57,7 @@
 
 /* Responsive Design */
 
- @media (max-width: 480px) {
-  .activity-container {
-    margin: 20px 0px 0px 20px;
-    padding: 12px;
-    width: 80%;
-}
-}
+ 
 
 
 /* Add these new styles */
